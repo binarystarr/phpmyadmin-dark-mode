@@ -1,0 +1,12 @@
+{
+    "content_scripts": [ {
+       "all_frames": true,
+       "css": [ "style.css" ],
+       "js": [ "script.js" ],
+       "matches": [ "http://localhost/phpmyadmin/*", "https://mysql.example.com/*" ]
+    } ],
+    "description": "Give phpmyadmin a dark theme",
+    "manifest_version": 3,
+    "name": "phpmyadmin - Dark Mode",
+    "version": "0.1.0"
+ }

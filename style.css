@@ -1,0 +1,7 @@
+html {
+    filter: invert(86%) hue-rotate(272deg) brightness(117%) contrast(127%);
+}
+.breadcrumb-navbar {
+    text-shadow: none !important;
+    background-color: #555 !important;
+}
